@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#p1{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('https://assets2.razerzone.com/images/pnx.assets/ed5f2002143fc498480dde5b1870f0f0/hehehe.webp');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+#p2{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('1.jpg');
+    background-size: 100% 100%;
+    height:100vh;
+}
+#p3{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('https://assets2.razerzone.com/images/pnx.assets/315473bcdcd9f0a49c2c48947183d70e/razer-blade16-lamborghini_hero.webp');
+    background-size: 100% 100%;
+    height:100vh;
+}
+#p4{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('https://assets2.razerzone.com/images/pnx.assets/b5e7423ecbdf6442269757bb3ae92461/razer-fujin-pro-hero-desktop.webp');
+    background-size: 100% 100%;
+    height:100vh;
+    width:49.8%;
+    display:inline-block;
+}
+#p5{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('2.jpg');
+    background-size: 100% 100%;
+    height:100vh;
+    width:49.8%;
+    display: inline-block;
+}
+#p6{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('7.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    width:49.8%;
+    display: inline-block;
+    
+}
+#p7{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('5.jpg');
+    background-size: 100% 100%;
+    height:100vh;
+    width:49.8%;
+    display: inline-block;
+}
+#p8{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('6.jpg');
+    background-size: 100% 100%;
+    height:100vh;
+    width:49.8%;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+#p9{
+    background:
+    linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
+    url('4.jpg');
+    background-size: 100% 100%;
+    height:100vh;
+    width:49.8%;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+div{
+    text-align: center;
+    margin-bottom: 7px;
+}
+body{
+    background-color: rgba(17, 16, 16, 0.76);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.primary{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+}
+.secondary{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tertiary{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: rgba(255,255,255,0.6);
+    margin: 0px;
+    font-size: 16px;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+#main{
+    flex-direction: column;
+}
+#main2,#main3,#main4{
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    margin: 0px;
+}
+#f1{
+    flex-direction: row;
+    background-color: black;
+    justify-content:space-between;
+    margin-top: 0px;
+}
+#f2,#f3,#f4,#f5{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    color: white;
+}
+#f6{
+    flex-direction: column;
+    color: #44d62c;
+    margin: 30px;
+    align-items: flex-start;
+}
+@media(max-width: 767px){
+    #main2,#main3,#main4{
+        flex-direction: column;
+    }
+    #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#f1,#navbar{
+        display: block;
+        width: 100vh;
+    }
+}
