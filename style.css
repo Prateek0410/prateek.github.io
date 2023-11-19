@@ -6,7 +6,7 @@
 #p1{
     background:
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
-    url('https://assets2.razerzone.com/images/pnx.assets/ed5f2002143fc498480dde5b1870f0f0/hehehe.webp');
+    url('sec1.png');
     background-size: 100% 100%;
     height: 100vh;
 }
@@ -29,57 +29,62 @@
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
     url('https://assets2.razerzone.com/images/pnx.assets/b5e7423ecbdf6442269757bb3ae92461/razer-fujin-pro-hero-desktop.webp');
     background-size: 100% 100%;
-    height:100vh;
+    height:75vh;
     width:49.8%;
     display:inline-block;
+    margin-right: 4px;
 }
 #p5{
     background:
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
     url('2.jpg');
     background-size: 100% 100%;
-    height:100vh;
+    height:75vh;
     width:49.8%;
     display: inline-block;
+    margin-left: 4px;
 }
 #p6{
     background:
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
     url('7.jpg');
     background-size: 100% 100%;
-    height: 100vh;
+    height: 75vh;
     width:49.8%;
     display: inline-block;
-    
+    margin-right: 4px;
 }
 #p7{
     background:
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
     url('5.jpg');
     background-size: 100% 100%;
-    height:100vh;
+    height:75vh;
     width:49.8%;
     display: inline-block;
+    margin-left: 4px;
 }
 #p8{
     background:
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
     url('6.jpg');
     background-size: 100% 100%;
-    height:100vh;
+    height:75vh;
     width:49.8%;
     display: inline-block;
     margin-bottom: 0px;
+    margin-right: 4px;
 }
 #p9{
     background:
     linear-gradient(to bottom,rgba(0, 0, 0, 1)0%, rgba(0,0,0,0.2)70%),
     url('4.jpg');
     background-size: 100% 100%;
-    height:100vh;
+    height:75vh;
     width:49.8%;
     display: inline-block;
     margin-bottom: 0px;
+    margin-left: 4px;
 }
 div{
     text-align: center;
@@ -87,6 +92,7 @@ div{
 }
 body{
     background-color: rgba(17, 16, 16, 0.76);
+    overflow-x:hidden;
 }
 a{
     color: white;
@@ -118,6 +124,7 @@ a{
     position: sticky;
     top: 0px;
     font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    border-bottom: 1px solid #44D62C;
 }
 #main{
     flex-direction: column;
@@ -129,6 +136,7 @@ a{
     margin: 0px;
 }
 #f1{
+    overflow-x:hidden;
     flex-direction: row;
     background-color: black;
     justify-content:space-between;
@@ -152,6 +160,17 @@ a{
     }
     #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#f1,#navbar{
         display: block;
-        width: 100vh;
+        width: 100vw;
     }
+}
+#banner{
+    height: 44px;
+    background-color:#555555;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    color: white;
 }
